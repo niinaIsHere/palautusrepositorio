@@ -27,3 +27,4 @@ class Kauppa:
         summa = self._ostoskori.hinta()
 
         return self._pankki.tilisiirto(nimi, viite, tili_numero, self._kaupan_tili, summa)
+
